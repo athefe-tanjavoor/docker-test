@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require("body-parser");
 
 app.get("/", function (req, res) {
-  res.send("Hi from Ec2 instance!");
+  res.send("Hi aatif from Ec2 instance!");
 });
 
 app.listen(3000, () => {
